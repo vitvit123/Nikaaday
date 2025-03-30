@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/Nikaaday/', 
-  assetsInclude: ['**/*.JPG', '**/*.PNG'], 
+  assetsInclude: ['**/*.JPG','**/*.mp3', '**/*.PNG'], 
 });

@@ -42,10 +42,10 @@ function Card() {
               I hope you have a very blessed birthday!
             </p>
             <p>
-            Wishing you all the best on your special day and always. Enjoy every moment of today!
+            Wishing you have a great day every single day.
             </p>
             <p>
-            Here’s to another fantastic year ahead of you. You’re amazing, Nikaaaaa!
+            Here’s to another fantastic year ahead of you. You’re amazing, kaaaaa!
             </p>
             <p className="signed">Nikaa </p>
           </div>

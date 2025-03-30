@@ -5,18 +5,19 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "start": "vite",
-  "build": "vite build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "start": "vite",
+    "build": "vite build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "framer-motion": "^11.17.0",
     "lucide-react": "^0.471.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
     "react-router-dom": "^7.1.1"
   },
   "devDependencies": {

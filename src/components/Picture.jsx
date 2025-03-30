@@ -1,23 +1,28 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { picture} from '../assets';
 import { Link } from 'react-router-dom'; 
 import SectionWrapper from './SectionWrapper';
-// Add your own images by putting them in the assets folder and import them.
+import picture1 from '../assets/IMG_6744.JPG'; 
+import picture2 from '../assets/IMG_6741.JPG'; 
+import picture3 from '../assets/IMG_6742.JPG'; 
+import picture4 from '../assets/IMG_6784.PNG'; 
+// Use the same image multiple time
 const images = [
- picture,
- picture,
- picture,
- picture,
-
+  picture1,
+  picture2,
+  picture3,
+  picture4,
 ];
+
 function Picture() {
   const [loadedImages, setLoadedImages] = useState(0);
 
   const handleImageLoad = () => {
     setLoadedImages((prev) => prev + 1);
   };
+
   const allImagesLoaded = loadedImages === images.length;
+
   return (
     <SectionWrapper>
       <Link to="/card">
@@ -25,11 +30,15 @@ function Picture() {
           You're Getting Old! :P
         </p>
       </Link>
+
+      {/* Loading message */}
       {!allImagesLoaded && (
         <div className="absolute inset-0 flex justify-center items-center">
           <p className="text-xl font-medium text-gray-500">Loading images...</p>
         </div>
       )}
+
+      {/* Render images */}
       {images.map((image, index) => (
         <motion.div
           key={index}
@@ -41,7 +50,7 @@ function Picture() {
           }}
           initial={{
             scale: 1,
-            rotate: Math.random() * 20 - 10,
+            rotate: Math.random() * 20 - 10, // Random rotation for stacking visual
           }}
           whileDrag={{
             scale: 1.05,

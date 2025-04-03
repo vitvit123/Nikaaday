@@ -14,14 +14,10 @@ function Present() {
         <label className='gift' htmlFor='click'>
           <div className="gift-top"></div>
           <div className="gift-bottom"></div>
-          <div id="raffle-red" className="entry raffle raffle-2">
-            <div className="no-scale">
-              <span className="ticket-text">Free<br/>Dinner</span>
-            </div>
-          </div>
+          
           <div id="raffle-red" className="entry raffle raffle-3">
             <div className="no-scale">
-              <span className="ticket-text">Free<br/>key chain</span>
+              <span className="ticket-text">Ot BrB Tok<br/>Oy Cgol ^^</span>
             </div>
           </div>
         </label>

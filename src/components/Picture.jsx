@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom'; 
 import SectionWrapper from './SectionWrapper';
 import picture1 from '../assets/IMG_6744.JPG'; 
-import picture2 from '../assets/IMG_6741.JPG'; 
+import picture2 from '../assets/IMG_6743.JPG'; 
 import picture3 from '../assets/IMG_6742.JPG'; 
 import picture4 from '../assets/IMG_6784.PNG'; 
 // Use the same image multiple time

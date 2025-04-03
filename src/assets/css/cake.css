@@ -5,7 +5,9 @@
     position: relative;
     margin-bottom: 40rem;
   }
-  
+  p:first-child{
+    margin-top: -60px;
+  }
   .candle {
     background: #ffffff;
     border-radius: 10px;

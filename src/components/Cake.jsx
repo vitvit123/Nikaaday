@@ -36,7 +36,7 @@ function Cake() {
       {/* Happy Birthday message and Next Page button */}
       {candlesBlownOut && (
         <motion.div
-          className="absolute top-20 text-white text-3xl font-bold z-50"
+          className="absolute top-20 mb-[10rem] text-white text-3xl font-bold z-50"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -57,7 +57,7 @@ function Cake() {
             </text>
           </svg>
           <Link to="/present" className="flex justify-center items-center">
-            <p className="absolute top-[30rem] xs:top-[36rem] s:top-[40rem] px-7 py-3 bg-customBlue text-white rounded-full hover:bg-blue-600 font-medium text-base text-center ">
+            <p className="absolute top-[30rem] mb-[10rem] xs:top-[36rem] s:top-[40rem] px-7 py-3 bg-customBlue text-white rounded-full hover:bg-blue-600 font-medium text-base text-center ">
               Next Page
             </p>
           </Link>
@@ -88,7 +88,7 @@ function Cake() {
       {!candlesBlownOut && showButton && (
         <motion.button
           onClick={blowOutCandles}
-          className="absolute bottom-10 px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 font-medium text-lg z-20"
+          className="absolute bottom-10 mb-[10rem] px-6 py-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 font-medium text-lg z-20"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}

@@ -5,7 +5,7 @@
     position: relative;
     margin-bottom: 40rem;
   }
-  p:first-child{
+  #nextpresent{
     margin-top: -60px;
   }
   .candle {
